@@ -1,0 +1,29 @@
+.sidebar ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.color-letter{
+    color:white;
+    text-decoration: none;
+}
+
+.sidebar ul li:hover{
+    background-color: rgb(120, 120, 129);
+    border-radius:5px;
+    cursor:pointer;
+}
+    
+.sidebar ul li:hover a{
+    color:white
+}
+
+
+
+.active{
+    background-color: rgb(120, 120, 129);
+    border-radius:5px;
+    color:white;
+}
+
+    
