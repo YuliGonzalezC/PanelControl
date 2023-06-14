@@ -6,13 +6,12 @@ const labels=["January, February, Macrh, April, May, June"];
 
 const data ={
     labels: labels,
-    datasets: [
-    { label: "My First dataset",
+    datasets: [{ label: "My First dataset",
       backgroundCo1or: "rgb(255, 99, 132)",
-      borderColor:"rgb(25, 99, 132)",
+      borderColor:"rgb(255, 99, 132)",
       data: [0, 10, 5, 2, 20, 30,45],
-    },
-    ],
+   
+    }]
     };
 
 function PieChart() {
