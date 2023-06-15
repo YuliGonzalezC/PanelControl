@@ -4,7 +4,7 @@ export default function Navbar({Toggle}) {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand d-none d-md-block" href="#">Metricas Ecommerce</a>
+          <a className="navbar-brand d-none d-md-block" href="#"><h1>Metricas Ecommerce</h1></a>
           <a className="navbar-brand d-block d-md-none" onClick={Toggle} >
             <i className="bi bi-justify"></i>
             </a>

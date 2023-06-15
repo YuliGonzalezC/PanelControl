@@ -1,3 +1,4 @@
+
 .sidebar ul li a{
     text-decoration: none;
     color:white;
@@ -18,8 +19,6 @@
     color:white
 }
 
-
-
 .active{
     background-color: rgb(120, 120, 129);
     border-radius:5px;
@@ -28,5 +27,80 @@
 
 
 
+.products-container {
+    width: 100%;
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns :repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
 
+img{
+    width:250px;
+    height: 250px;
+    transition: all 0.35 ease;
     
+
+}
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+    .card—description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+     }
+
+     .productImg{
+        width:20%;
+        height: 30%;
+       
+
+     }
+     .productoImagen{
+        width: 30%;
+        height: 10%;
+
+     }
+
+     
+     @media only screen and (max-width: 600px)  {
+
+        *{
+            font-size:3rem;
+        }
+                
+        .products-container {
+            width: 100%;
+            min-height: 70vh;
+            display: grid;
+            grid-template-columns :repeat(2,1fr);
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            
+            }
+
+            .whidthHeightPie{
+                width:90%;
+                height: 100px;
+        
+            }
+            
+            
+        
+                }
+            
+                

@@ -22,7 +22,7 @@ const data = {
 };
 
 function LineChat() {
-  return <div className="bg-white border border-secondary">
+  return <div className="bg-white " style={{ width: '100%', minHeight: '300px' }} >
         <Line data={data}></Line>
   </div>;
 }
